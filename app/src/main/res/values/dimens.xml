@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+        <dimen name="imager_wh">120dp</dimen>
+     <dimen name="imager_width">380dp</dimen>
+      <dimen name="imager_heig">320dp</dimen>
+      <dimen name="imager_width_xx">93dp</dimen>
+      <dimen name="imager_heig_xx">39dp</dimen>
+       <dimen name="imager_width_ql">116dp</dimen>
+      <dimen name="imager_heig_ql">39dp</dimen>
+       <dimen name="imager_width_sz">96dp</dimen>
+      <dimen name="imager_heig_sz">43dp</dimen>
+      <dimen name="imager_heig_jianji">120dp</dimen>
+      <dimen name="imager_heig_1">50dp</dimen>
+      <dimen name="imager_heig_Imagerbut">20dp</dimen>
+       <dimen name="imager_heig_Imagerleft">50dp</dimen>
+       <dimen name="imager_heig_Imagertop">0dp</dimen>	
+       <dimen name="imager_da_left">0dp</dimen>	
+        <dimen name="imager_md_width">134dp</dimen>
+    <dimen name="imager_md_heith">68dp</dimen>
+       <dimen name="imager_md_but">130dp</dimen>
+<dimen name="imager_tw_width">147dp</dimen>
+    <dimen name="imager_tw_heith">81dp</dimen>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.turing.turingsdksample">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="false"
+        android:hardwareAccelerated="false"
+        android:name=".activity.MainApplication"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.turing.turingsdksample.activity.MainFragmentActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.turing.turingsdksample.activity.StartActivity"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity android:name="android_serialport_api.ConsoleActivity">
+        </activity>
+        <activity
+            android:name="com.turing.turingsdksample.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name="com.turing.turingsdksample.activity.AlarmActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <service android:name="com.thundersoft.airichelibrary.RunService">
+            >
+            <intent-filter>
+                <action android:name="com.thundersoft.airichelibrary.RunService" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".activity.StartUpReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SCANNER_STARTED" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_SCAN_FILE" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".activity.MsgReceiver">
+            <intent-filter>
+                <action android:name="com.qi.returnnotfountname"/>
+                <action android:name="com.sunchip.stoprecoder"/>
+                <action android:name="com.sunchip.startrecoder"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!--控制录音的广播-->
+        <receiver android:name=".receiver.ControlRecoderReceiver">
+            <intent-filter>
+                <action android:name="com.sunchip.stoprecoder" />
+                <action android:name="com.sunchip.startrecoder" />
+            </intent-filter>
+        </receiver>
+        <!--用于接收闹钟的广播-->
+        <receiver android:name=".receiver.alarmReceiver">
+            <intent-filter>
+                <action android:name="com.sunchip.alarm" />
+            </intent-filter>
+        </receiver>
+        <!--
+        Apikey： 0a70d34c9da4442d8839ff821e0fcc5a
+        Secret： wMb9L0xu49VvOsU7
+        -->
+        <meta-data
+            tools:node="replace"
+            android:name="TURING_APPKEY"
+            android:value="@string/api_key" />
+        <meta-data
+            tools:node="replace"
+            android:name="TURING_SECRET"
+            android:value="@string/secret" />
+
+    </application>
+
+</manifest>

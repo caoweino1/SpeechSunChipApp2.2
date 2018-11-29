@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">智能问答</string>
+    <string name="start_asr">开始asr</string>
+    <string name="stop_asr">停止asr</string>
+    <string name="result_show">结果展示区</string>
+    <string name="please_request_show">请输入请求</string>
+    <string name="warn_content_isnull">输入内容不能为空</string>
+    <string name="start_request">开始请求</string>
+    <string name="asr_recording">正在录音中...</string>
+    <string name="start_init">开始初始化</string>
+    <!--公版 0a70d34c9da4442d8839ff821e0fcc5a  wMb9L0xu49VvOsU7 -->
+    <!--鲁奇亚 aecdc3aa66824f6a9c84ac1b1531e698  3o2f613l84323Xau -->
+    <!--火火兔 108bd270ef2d489f8bf714fde5ece5fc  cgm7YArp52853Ty2 -->
+    <!--智力快车 d967b143ff124cbc8e8f92ac4909ab32  1929Cx7k9O4073Tw -->
+    <string name="api_key">d967b143ff124cbc8e8f92ac4909ab32</string>
+    <string name="please_input_apikey">请输入apikey</string>
+    <string name="secret">1929Cx7k9O4073Tw</string>
+    <string name="kiwiec_welcome_hello">欢迎使用回声消除+唤醒！您可以体验到，无视背景音乐的干扰，唤醒依然好用</string>
+
+    <string name="kiwi_welcome_hello_one">欢迎使用唤醒！您可以说如下的唤醒词\n1.火火兔</string>
+
+    <string name="kiwi_welcome_hello_two">欢迎使用唤醒！您可以说如下的唤醒词\n1.标准模式2.强力模式3.快洗模式4.手搓模式5.漂加脱6.单脱水7.洗内衣8.洗羊毛9.夏日洗10.夜间洗</string>
+
+    <string name="kiwi_welcome_hello_three">欢迎使用唤醒！您可以说如下的唤醒词\n1.上一首2.下一首3.放大地图4.查看股票5.附近的加油站6.开始录像7.讲</string>
+    <string name="please_input_secret">请输入secret</string>
+    <string name="initsdk_success">初始化成功</string>
+    <string name="initsdk_error">初始化失败</string>
+    <string name="please_initsdk_success">请先初始化成功后，才能使用该功能</string>
+    <string name="loading_http">正在进行请求...</string>
+    <string name="stop_tts">停止tts</string>
+    <string name="init_userId">初始化userId</string>
+    <string name="init_tts">初始化tts</string>
+    <string name="init_asr">初始化asr</string>
+    <string name="init_userId_success">初始化userId成功</string>
+    <string name="init_tts_success">初始化tts成功</string>
+    <string name="init_asr_success">初始化asr成功</string>
+    <string name="start_tts">开始tts</string>
+    <string name="recoding_error">录音失败，请检查网络</string>
+    <string name="tts_speed">tts音速：</string>
+    <string name="tts_volume">tts音量：</string>
+    <string name="tts_pitch">tts音准：</string>
+    <string name="tts_effect">tts音效：</string>
+    <string name="tips_please_input_msg">请输入内容</string>
+    <string name="play_music">播放音乐</string>
+    <string name="sure">确定</string>
+    <string name="music">音乐</string>
+    <string name="login">登录</string>
+    <string name="apikey">输入APIKey</string>
+    <string name="secret_hint">输入Secret</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败</string>
+    <string name="turingsdk_cn">TuringSdk CN 登录</string>
+    <string name="param_not_null">参数不能为空</string>
+    <string name="iot">IOT</string>
+    <string name="toast">智能问答音乐内容由咪咕音乐提供</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal">
+    <!--<RelativeLayout-->
+    <!--android:layout_width="600dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--&gt;-->
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gif_iamgeview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/happy" />
+    <!--<ImageView-->
+    <!--android:id="@+id/rec_btn"-->
+
+    <!--android:layout_width="147dp"-->
+    <!--android:layout_height="81dp"-->
+    <!--android:layout_marginLeft="250dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:paddingBottom="45dp"-->
+    <!--android:src="@drawable/wx_ask" />-->
+    <!--</RelativeLayout>-->
+    <!--&lt;!&ndash; <android.support.v7.widget.RecyclerView-->
+    <!--android:background="#00000000"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="2"-->
+    <!--android:id="@+id/recycler_view" />&ndash;&gt;-->
+    <!--<LinearLayout  android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="2"-->
+    <!--android:paddingLeft="10dp"-->
+    <!--android:background="#00000000"-->
+    <!--android:orientation="vertical">-->
+    <!--<LinearLayout android:layout_width="fill_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:gravity="right">-->
+    <!--<LinearLayout android:layout_width="50dp"-->
+    <!--android:id="@+id/back_btn"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginRight="12dp"-->
+    <!--android:layout_height="50dp">-->
+    <!--<ImageView android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/back_btn"/>-->
+    <!--</LinearLayout>-->
+    <!--<ImageView android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="34dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:src="@drawable/back"/>-->
+    <!--</LinearLayout>-->
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:background="#00000000"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:id="@+id/recycler_view" />-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>
+
